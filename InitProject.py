@@ -12,4 +12,6 @@ x = len(shopping_list["piekarnia"]) + len(shopping_list["warzywniak"])
 
 print(f"W sumie kupuję {x} produktów")
 
-print("Wprowadziłem jakieś zmiany")
+for i in range (1,10):
+    if i % 2 ==0:
+        print(i)
