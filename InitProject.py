@@ -11,5 +11,3 @@ for key, value in shopping_list.items():
 x = len(shopping_list["piekarnia"]) + len(shopping_list["warzywniak"])
 
 print(f"W sumie kupuję {x} produktów")
-
-print("Wprowadziłem jakieś zmiany")
